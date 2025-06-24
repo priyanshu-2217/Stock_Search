@@ -1,12 +1,16 @@
-import "./App.css";
-import Stock from "./stock";
+import { Routes, Route } from "react-router-dom";
+import React from "react";
+
+import Stock from "./Component/stock";
+import StockDetails from "./Component/StockDetails";
 
 function App() {
   return (
     <>
-      <div className="App"></div>
-
-      <Stock />
+      <Routes>
+        <Route path="/" element={<Stock />} />
+        <Route path="/stock/:symbol" element={<StockDetails />} />
+      </Routes>
     </>
   );
 }
