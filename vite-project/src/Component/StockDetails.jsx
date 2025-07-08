@@ -6,7 +6,7 @@ const dummyStocks = [
   { symbol: "GOOGL", name: "Alphabet Inc.", price: 127.32 },
   { symbol: "AMZN", name: "Amazon.com Inc.", price: 114.29 },
   { symbol: "MSFT", name: "Microsoft Corp.", price: 331.77 },
-  { symbol: "TSLA", name: "Tesla Inc.", price: 224.57 },
+  { symbol: "TSLAA", name: "Tesla Inc.", price: 224.57 },
 ];
 
 const StockDetail = () => {
