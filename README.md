@@ -10,7 +10,6 @@
 - 📋 List of available stocks with clickable symbols
 - 📱 Responsive UI using Tailwind CSS
 - ✅ Ready for deployment as a released package
-
 ---
 
 ## 🛠️ Tech Stack
